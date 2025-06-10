@@ -5,6 +5,8 @@ import "./globals.css";
 import { Navigation } from "@/components/navigation";
 import { Toaster } from "react-hot-toast";
 import Web3Provider from "./web3.providers";
+import Footer from "@/components/footer";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +37,7 @@ export default function RootLayout({
               },
             }}
           />
+          <Footer />
         </Web3Provider>
       </body>
     </html>
